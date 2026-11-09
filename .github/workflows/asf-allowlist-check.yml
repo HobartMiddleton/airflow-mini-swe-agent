@@ -31,8 +31,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
         with:
           persist-credentials: false
       - name: Check ASF allowlist
-        uses: apache/infrastructure-actions/allowlist-check@49df447b39b18354895520e0a63731b7cad7cbec  # main
+        uses: apache/infrastructure-actions/allowlist-check@90a251d05123ce3df4a298ae7f708f4d9df71a41  # main
